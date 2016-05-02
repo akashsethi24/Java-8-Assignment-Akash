@@ -22,10 +22,10 @@ public class FetchDataFromTwitter {
 
         ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
         configurationBuilder.setDebugEnabled(true)
-                            .setOAuthConsumerKey("3j2yZo97wB044xzQEivnLPstt")
-                            .setOAuthConsumerSecret("ewYyc9NBCU8MVqXqLUffyrSIO176rLHcUeOQTwtkcJMVeCo9PE")
-                            .setOAuthAccessToken("4838039064-hkTRhpnsvwg1SGASRWVIQDIyhLGSkD3M38QUEox")
-                            .setOAuthAccessTokenSecret("ojrwwHRL08p8CDVcpK46QD5pII3seMxWo1jyogzWtW6De");
+                            .setOAuthConsumerKey("3j2yZo97wB044xzQEivnLPstA")
+                            .setOAuthConsumerSecret("ewYyc9NBCU8MVqXqLUffyrSIO176rLHcUeOQTwtkcJMVeCo9PA")
+                            .setOAuthAccessToken("4838039064-hkTRhpnsvwg1SGASRWVIQDIyhLGSkD3M38QUEoA")
+                            .setOAuthAccessTokenSecret("ojrwwHRL08p8CDVcpK46QD5pII3seMxWo1jyogzWtW6DA");
 
         TwitterFactory twitterFactory = new TwitterFactory(configurationBuilder.build());
         Twitter twitter = twitterFactory.getInstance();
